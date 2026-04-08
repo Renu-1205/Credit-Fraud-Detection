@@ -12,16 +12,6 @@ This project builds a **production-ready fraud detection system** for credit car
 | **False Positives** | ~15 per 56,000 transactions |
 | **Missed Frauds** | ~18 per 98 frauds |
 
-### Business Impact (per 100,000 transactions)
-┌─────────────────────────────────────────────────────────┐
-│ Total Transactions: 100,000 │
-│ Actual Frauds: ~173 │
-│ │
-│ ✅ Frauds Caught: 141 (81.5%) │
-│ ❌ Frauds Missed: 32 (18.5%) │
-│ ⚠️ False Alarms: ~26 customers │
-│ 🎯 Alert Accuracy: 84.5% │
-└─────────────────────────────────────────────────────────┘
 
 ---
 
@@ -38,6 +28,7 @@ This project builds a **production-ready fraud detection system** for credit car
 
 ### Class Imbalance
 No Fraud: ████████████████████████████████████████ 99.83%
+
 Fraud: █ 0.17%
 
 
